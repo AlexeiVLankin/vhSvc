@@ -1,0 +1,7 @@
+<Preferences>
+  <SVC port="8005" shutdowntimeout="120" /> 
+<Connections>
+<Connection name="tracker" dsn="user=trackerSvc password=123 host=localhost port=5432 dbname=Tracker" testQuery="select 1 as result"/>
+</Connections>
+
+</Preferences>

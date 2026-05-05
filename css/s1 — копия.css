@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #3668c5;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height1: 100vh;
+    }
+    
+.message {
+      margin: 0;
+      font-family: Arial, sans-serif;
+     font-size: 3em;
+      color: #CCCCFF;
+      display: flex;
+      align-items: left;
+      justify-content: left;
+      height1: 100vh;
+    }
+    
+    .datasubmittedmsg {
+      margin: 0;
+      font-family: Arial, sans-serif;
+     font-size: 3em;
+      color: #CCCCFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height1: 100vh;
+    }
+
+ .vin{
+	border-bottom1: 1px solid #364043;
+  color: #000;
+  font-size:3em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}   
+
+ .vehdesc{
+	border-bottom1: 1px solid #364043;
+  color: #000;
+  font-size:2em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}   
+
+    .content {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      max-width1: 600px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      color: #3668c5;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+    .logo {
+      margin-top: 2rem;
+    }
+    .logo img {
+      height: 60px;
+    }
+
+
+
+
+
+table.table1 {
+ width: 90vw;
+  height: 80vh;
+  background: #012B39;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin1: 1em;
+}
+
+
+
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+border-top: 3px solid #012B39;
+}
+.disabled td {
+  color: #4F5F64;
+}
+
+tbody tr {
+  transition: background 0.25s ease;
+}
+
+tbody
+ tr:hover {
+  background: #014055;
+}
+
+
+
+.button1 {
+	height:70px;
+    width:500px;
+ padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+ font-size: 3em;
+  border-radius: 6px;
+  border: none;
+ background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+
+  
+}
+
+.button1:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(4); /* IE */
+  -moz-transform: scale(4); /* FF */
+  -webkit-transform: scale(4); /* Safari and Chrome */
+  -o-transform: scale(4); /* Opera */
+  transform: scale(4);
+  padding: 10px;
+}
+
+.make.abarth { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/abarth.gif); background-repeat: no-repeat; }
+.make.alfa.romeo {border1: 3px solid #012B39; background-position:center;  background-image: url(https://secure.b-cars.ch/photos/logo2/alfa_romeo.gif); background-repeat: no-repeat; }
+.make.audi { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/audi.gif); background-repeat: no-repeat; }
+.make.bmw { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/bmw.gif); background-repeat: no-repeat; }
+.make.chevrolet { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/chevrolet.gif); background-repeat: no-repeat; }
+.make.chrysler { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/chrysler.gif); background-repeat: no-repeat; }
+.make.citroen { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/citroen.gif); background-repeat: no-repeat; }
+.make.cupra { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/cupra.gif); background-repeat: no-repeat; }
+.make.dacia { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/dacia.gif); background-repeat: no-repeat;  }
+.make.daihatsu {border1: 3px solid #012B39; background-position:center;  background-image: url(https://secure.b-cars.ch/photos/logo2/daihatsu.gif); background-repeat: no-repeat; }
+.make.ds { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/ds.gif); background-repeat: no-repeat; }
+.make.fiat { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/fiat.gif); background-repeat: no-repeat; }
+.make.ferrari { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/ferrari.gif); background-repeat: no-repeat; }
+.make.ford { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/ford.gif); background-repeat: no-repeat; }
+.make.honda { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/honda.gif); background-repeat: no-repeat; }
+.make.hyundai { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/hyundai.gif); background-repeat: no-repeat; }
+.make.isuzu { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/isuzu.gif); background-repeat: no-repeat; }
+.make.jaguar {border1: 3px solid #012B39; background-position:center;  background-image: url(https://secure.b-cars.ch/photos/logo2/jaguar.gif); background-repeat: no-repeat; }
+.make.jeep { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/jeep.gif); background-repeat: no-repeat; }
+.make.kia { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/kia.gif); background-repeat: no-repeat; }
+.make.lancia { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/lancia.gif); background-repeat: no-repeat; }
+.make.lada { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/lada.gif); background-repeat: no-repeat; }
+.make.land.rover {border1: 3px solid #012B39; background-position:center;  background-image: url(https://secure.b-cars.ch/photos/logo2/land_rover.gif); background-repeat: no-repeat; }
+.make.lexus { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/lexus.gif); background-repeat: no-repeat; }
+.make.lotus { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/lotus.gif); background-repeat: no-repeat; }
+.make.mazda { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/mazda.gif); background-repeat: no-repeat; }
+.make.maserati {border1: 3px solid #012B39; background-position:center;  background-image: url(https://secure.b-cars.ch/photos/logo2/maserati.gif); background-repeat: no-repeat; }
+.make.mercedes { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/mercedes.gif); background-repeat: no-repeat; }
+.make.mg { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/mg.gif); background-repeat: no-repeat; }
+.make.mini { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/mini.gif); background-repeat: no-repeat; }
+.make.mitsubishi {border1: 3px solid #012B39; background-position:center;  background-image: url(https://secure.b-cars.ch/photos/logo2/mitsubishi.gif); background-repeat: no-repeat; }
+.make.nissan {border1: 3px solid #012B39; background-position:center;  background-image: url(https://secure.b-cars.ch/photos/logo2/nissan.gif); background-repeat: no-repeat; }
+.make.opel { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/opel.gif); background-repeat: no-repeat; }
+.make.peugeot { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/peugeot.gif); background-repeat: no-repeat; }
+.make.porsche { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/porsche.gif); background-repeat: no-repeat; }
+.make.renault { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/renault.gif); background-repeat: no-repeat; }
+/* NOUVEAU logo NEVS */ .make.saab {border1: 3px solid #012B39; background-position:center;  background-image: url(https://secure.b-cars.ch/photos/logo2/saab.gif); background-repeat: no-repeat; }
+.make.seat { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/seat.gif); background-repeat: no-repeat; }
+.make.skoda { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/skoda.gif); background-repeat: no-repeat; }
+.make.ssangyong { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/ssangyong.gif); background-repeat: no-repeat; }
+.make.subaru { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/subaru.gif); background-repeat: no-repeat; }
+.make.suzuki { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/suzuki.gif); background-repeat: no-repeat; }
+.make.toyota { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/toyota.gif); background-repeat: no-repeat; }
+.make.volkswagen { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/volkswagen.gif); background-repeat: no-repeat; }
+.make.volvo { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/volvo.gif); background-repeat: no-repeat; }
+.make.tesla, .make.gaz {border1: 3px solid #012B39; background-position:center;  background-image: url(https://secure.b-cars.ch/img/websites/int/icons/ico_question.svg); background-repeat: no-repeat; }
+.make.jac { border1: 3px solid #012B39; background-position:center; background-image: url(https://secure.b-cars.ch/photos/logo2/jac.gif); background-repeat: no-repeat; }
